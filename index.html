@@ -1,0 +1,17 @@
+
+<html>
+  <head>
+    <title>Upload first homework for DBWS</title>
+  </head>
+  <body>
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+      Select file to upload: (2MB max., single file, PDF or ZIP)<br>
+      If you need to resubmit please put your name trailed by a digit, i.e. akaleci1<br><br>
+      <input type="text" name="name" placeholder="Enter your ClamV name"> i.e. akaleci, vsmakaj etc. <br>
+      <input type="file" name="fileToUpload" id="fileToUpload"><br>
+      <input type="radio" name="type" value="pdf" checked> PDF
+      <input type="radio" name="type" value="zip"> ZIP<br>
+      <input type="submit" value="Upload file" name="submit">
+    </form>
+  </body>
+</html>
